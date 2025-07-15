@@ -1,0 +1,47 @@
+/* 全局样式，让页面更好看 */
+body {
+    background-color: #f0f2f5; /* 淡灰色背景 */
+    font-family: sans-serif; /* 使用更通用的无衬线字体 */
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 100vh; /* 高度占满整个屏幕 */
+    margin: 0;
+}
+
+/* 主要容器的样式 */
+.container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px; /* 圆角 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 添加阴影，更有立体感 */
+    text-align: center;
+    max-width: 600px;
+}
+
+/* 笑话文本的样式 */
+.joke-text {
+    font-size: 1.2em; /* 字体稍大一些 */
+    line-height: 1.6; /* 行高，让文本不拥挤 */
+    min-height: 100px; /* 给一个最小高度，防止容器因文本长短变化而跳动 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 按钮的样式 */
+button {
+    background-color: #007bff; /* 蓝色背景 */
+    color: white; /* 白色文字 */
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer; /* 鼠标悬浮时显示小手图标 */
+    transition: background-color 0.3s; /* 背景色变化时有过渡效果 */
+}
+
+/* 鼠标悬浮在按钮上时的样式 */
+button:hover {
+    background-color: #0056b3; /* 颜色加深 */
+}
